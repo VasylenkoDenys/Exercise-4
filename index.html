@@ -10,8 +10,7 @@
   </head>
   <body>
     <header class="header-style">
-      <section class="overlay"></section>
-      <section class="header-section">
+      <div class="header-section">
         <h1 class="first-level-heading">Welcome to Acme Web Solutions</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nam
@@ -19,7 +18,7 @@
           praesentium.
         </p>
         <a href="#" class="button">Read More</a>
-      </section>
+      </div>
     </header>
     <main>
       <section class="intermediate-paragraph">
@@ -35,53 +34,53 @@
           perspiciatis nihil totam quis laborum unde pariatur natus. Recusandae!
         </p>
       </section>
-      <article class="three-columns-article">
-        <section class="section-column">
+      <section class="three-columns-section">
+        <article class="article-column">
           <img
             class="column-image-size"
             src="./assets/images/photo1.jpeg"
             alt="writing code on laptop"
           />
-          <section class="column-nested-section">
+          <div class="column-nested">
             <h2 class="intermediate-paragraph-heading">Web Development</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
               fugit aut atque id blanditiis, natus quos autem. Facilis, quas
               saepe.
             </p>
-          </section>
-        </section>
-        <section class="section-column">
+          </div>
+        </article>
+        <article class="article-column">
           <img
             class="column-image-size"
             src="./assets/images/photo2.jpeg"
             alt="smartphone in hand"
           />
-          <section class="column-nested-section">
+          <div class="column-nested">
             <h2 class="intermediate-paragraph-heading">Mobile Applications</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               in accusamus commodi quia aut rerum expedita magnam eum,
               distinctio quasi.
             </p>
-          </section>
-        </section>
-        <section class="section-column">
+          </div>
+        </article>
+        <article class="article-column">
           <img
             class="column-image-size"
             src="./assets/images/photo3.jpeg"
             alt="work schedules on tablet and laptop"
           />
-          <section class="column-nested-section">
+          <div class="column-nested">
             <h2 class="intermediate-paragraph-heading">Tech Marketing</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
               officiis quisquam natus! Fugit ab eos sapiente. Dicta molestias
               numquam laborum!
             </p>
-          </section>
-        </section>
-      </article>
+          </div>
+        </article>
+      </section>
       <section class="intermediate-paragraph">
         <h2 class="intermediate-paragraph-heading">
           We handle all of your digital needs
@@ -92,22 +91,28 @@
           praesentium ullam quo!
         </p>
       </section>
-      <!-- two-sides-article -->
-      <article class="two-sides-article">
-        <section class="half-screen-section-left">
+      <!-- two-sides-section -->
+      <section class="two-sides-section">
+        <article class="half-screen-article-left">
           <h2 class="intermediate-paragraph-heading">Contact Us</h2>
           <p class="contacts-paragraph">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repudiandae magni minima id explicabo itaque cum optio! Cumque, magnam esse.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+            repudiandae magni minima id explicabo itaque cum optio! Cumque,
+            magnam esse.
           </p>
-          <p>contact@acmewebsolutions.test</p>
-        </section>
-        <section class="half-screen-section-right">
+          <a href="mailto:contact@acmewebsolutions.test"
+            >contact@acmewebsolutions.test</a
+          >
+        </article>
+        <article class="half-screen-article-right">
           <h2 class="intermediate-paragraph-heading">About Our Company</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil consequuntur vitae eligendi reiciendis voluptas pariatur minima corporis a perferendis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil
+            consequuntur vitae eligendi reiciendis voluptas pariatur minima
+            corporis a perferendis?
           </p>
-        </section>
-      </article>
+        </article>
+      </section>
     </main>
     <footer class="two-sides-footer">
       <p>Acme Web Solutions</p>
